@@ -12,7 +12,6 @@ before_script:
   - pip show hg-git dulwich
 
 script:
-  - export TEST_OPTS='-v'
   - make test
 
 matrix:
